@@ -18,7 +18,7 @@ let package = Package(
         .testTarget(
             name: "KeychainSwiftTests",
             dependencies: ["KeychainSwift"],
-            exclude: ["ClearTests.swift"]
+            exclude: ["ClearTests.swift", "Info.plist", "macOS Tests/Info.plist"]
         )
     ]
 )
